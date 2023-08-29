@@ -1,6 +1,6 @@
 import { useCounter, useFetch } from "../hooks";
 import { Character } from "./Character";
-import { LoadingCharacter } from "./loadingCharacter";
+import { LoadingCharacter } from "./LoadingCharacter";
 
 export const MultiplesCustommHooks = () => {
     const { counter, increment, reset, decrement } = useCounter(1);
