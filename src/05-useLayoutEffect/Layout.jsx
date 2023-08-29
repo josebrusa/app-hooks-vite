@@ -1,7 +1,7 @@
 import { useCounter, useFetch } from "../hooks";
 
 import { Character } from "../03-examples/Character";
-import { LoadingCharacter } from "../03-examples/loadingCharacter";
+import { LoadingCharacter } from "../03-examples/LoadingCharacter";
 
 export const Layout = () => {
     const { counter, increment, reset, decrement } = useCounter(10);
