@@ -9,6 +9,7 @@ import { CallbackHooks } from "./06-memos/CallbackHooks";
 import { MemoHook } from "./06-memos/MemoHook";
 import { Memorize } from "./06-memos/Memorize";
 import { Padre } from "./07-tarea-memo/07-tarea-memo/Padre";
+import "./08-useReducer/into-reducer";
 
 export const HooksApp = () => {
     return (
