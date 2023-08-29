@@ -2,7 +2,7 @@
 
 Utilizando Hooks de React para practicar viendo un poco de useState, useEffect, useLayoutEffect, customHooks , useRef y useMemo.
 
-Agradecido el tiempo dedicado del profe Fernando Herrera.
+Agradecido por el tiempo dedicado del profe Fernando Herrera.
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
