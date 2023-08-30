@@ -9,6 +9,7 @@ import { CallbackHooks } from "./06-memos/CallbackHooks";
 import { MemoHook } from "./06-memos/MemoHook";
 import { Memorize } from "./06-memos/Memorize";
 import { Padre } from "./07-tarea-memo/07-tarea-memo/Padre";
+import { TodoApp } from "./08-useReducer/TodoApp";
 import "./08-useReducer/into-reducer";
 
 export const HooksApp = () => {
@@ -44,7 +45,7 @@ export const HooksApp = () => {
             </div>
             <hr />
             <h2 className="pb-4 mb-4 border-bottom border-3 ">Memorize</h2>
-            <div className="d-flex">
+            <div className="d-flex justify-content-between">
                 <Memorize />
                 <MemoHook />
                 <CallbackHooks />
@@ -53,6 +54,11 @@ export const HooksApp = () => {
             <h2 className="pb-4 mb-4 border-bottom border-3 ">07 tarea Memo</h2>
             <div className="d-flex">
                 <Padre />
+            </div>
+            <hr />
+            <h2 className="pb-4 mb-4 border-bottom border-3 ">use Reducer</h2>
+            <div className="d-flex justify-content-center">
+                <TodoApp />
             </div>
         </div>
     );

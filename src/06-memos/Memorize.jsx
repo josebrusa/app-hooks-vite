@@ -23,14 +23,14 @@ export const Memorize = () => {
             <div
                 className="d-flex flex-column justify-content-center align-items-center m-4 border border-2 rounded "
                 style={{
-                    width: "14rem",
+                    width: "18rem",
                     height: "16rem",
                 }}
             >
                 <h4>
                     Counter: <Small value={counter} />
                 </h4>
-                <h4 className="text-center">{memorizeValue}</h4>
+                <p className="text-center">{memorizeValue}</p>
                 <div>
                     <button
                         className="btn btn-primary"

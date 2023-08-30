@@ -11,7 +11,7 @@ export const MemoHook = () => {
             <div
                 className="d-flex flex-column justify-content-center align-items-center m-4 border border-2 rounded "
                 style={{
-                    width: "14rem",
+                    width: "18rem",
                     height: "16rem",
                 }}
             >
