@@ -11,6 +11,8 @@ import { Memorize } from "./06-memos/Memorize";
 import { Padre } from "./07-tarea-memo/07-tarea-memo/Padre";
 import { TodoApp } from "./08-useReducer/TodoApp";
 import "./08-useReducer/into-reducer";
+import { BrowserRouter } from "react-router-dom";
+import { MainApp } from "./09-useContext/MainApp";
 
 export const HooksApp = () => {
     return (
@@ -60,6 +62,13 @@ export const HooksApp = () => {
             <div className="d-flex justify-content-center">
                 <TodoApp />
             </div>
+            <hr />
+            <h2 className="pb-4 mb-4 text-center border-bottom border-3 ">
+                use Context
+            </h2>
+            <BrowserRouter>
+                <MainApp />
+            </BrowserRouter>
         </div>
     );
 };
