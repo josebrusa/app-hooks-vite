@@ -10,7 +10,6 @@ describe("Pruebas en useForm", () => {
 
     test("debe regresar los valores por defecto", () => {
         const { result } = renderHook(() => useForm(initialForm));
-        console.log(result.current);
         expect(result.current).toEqual({
             name: initialForm.name,
             email: initialForm.email,

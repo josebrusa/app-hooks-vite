@@ -25,18 +25,21 @@ export const MultiplesCustommHooks = () => {
                 <div className="d-flex">
                     <button
                         className="btn btn-primary"
+                        disabled={isLoading}
                         onClick={() => increment()}
                     >
                         next
                     </button>
                     <button
                         className="btn btn-secondary"
+                        disabled={isLoading}
                         onClick={() => reset()}
                     >
                         reset
                     </button>
                     <button
                         className="btn btn-primary"
+                        disabled={isLoading}
                         onClick={() => decrement()}
                     >
                         prev
